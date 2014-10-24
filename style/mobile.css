@@ -90,3 +90,12 @@ img.cliente {
 	font-style: bold;
 	font-size: 20px;
 }
+
+#formularioContacto {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#contacto #contentInt {
+	min-height: 500px;
+}

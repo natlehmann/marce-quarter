@@ -16,6 +16,10 @@ $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <link rel="stylesheet" type="text/css" href="style/style1.css" />
+<link rel="stylesheet" href="style/mobile.css" type="text/css"
+	media="only screen and (max-width : 568px)" />
+<link rel="stylesheet" href="style/mobile.css" type="text/css"
+	media="only screen and (max-width : 792px) and (orientation : portrait)" />
 <script src="js/general.js"></script>
 </head>
 
