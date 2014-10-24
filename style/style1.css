@@ -173,14 +173,6 @@ body {
 }
 
 #textoInterno {
-	/*background-color: #FFFFFF;
-	float: right;
-	height: 354px;
-	margin-top: -357px;
-	position: absolute;
-	width: 600px;
-	margin-left: 425px;
-	*/
 	margin-left: 10px;
     margin-top: 40px;
     position: absolute;
@@ -189,14 +181,6 @@ body {
 }
 
 #textoInterno2 {
-	/*background-color: #FFFFFF;
-	float: right;
-	height: 354px;
-	margin-top: -357px;
-	position: absolute;
-	width: 600px;
-	margin-left: 425px;
-	*/
     margin-left: 29%;
     margin-top: 40px;
     position: absolute;
@@ -279,27 +263,6 @@ padding-top: 25%;
 
 }
 
-
-
-/*--------------------------------------galeria--------------------------------------*/
-.scroll {
-	height: 354px;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	position: relative;
-	width: 1025px;
-}
-
-.galeria {
-	width: 6202px;
-}
-
-.galeria img {
-	float: left;
-	margin-bottom: 15px;
-	margin-right: 5px;
-}
-
 @-moz-document url-prefix () { 
 	.scroll { height:354px;
 		overflow-x: scroll;
@@ -307,14 +270,6 @@ padding-top: 25%;
 		position: relative;
 		width: 1025px;
 	}
-}
-
-#slideShowImages { /* The following CSS rules are optional. */
-	
-}
-
-#slideShowImages img { /* The following CSS rules are optional. */
-	
 }
 
 label {
@@ -370,6 +325,6 @@ h1 {
 	border: 1px solid #063;
 }
 
-.mobile {
+#menu-mobile {
 	display: none;
 }
