@@ -1,0 +1,220 @@
+#pie,
+#menu,
+#textoInterno1,
+#redesSociales,
+#pieInterna,
+.notHome #cabecera {
+	display: none;
+}
+
+.mobile {
+	display: block;
+}
+
+#content {
+	width: 100%;
+	height: auto;
+}
+
+#contentIndex {
+	width: 100%;
+	height: auto;
+	margin-top: 50%;
+}
+
+#contentIndex a img {
+	width: 60%;
+	height: auto;
+}
+
+#cabecera {
+	width: 100%;
+	float: none;
+	clear: both;
+	text-align: center;
+}
+
+#contenido {
+	width: 100%;
+	height: auto;
+	padding-top: 0px;
+}
+
+.mobile #menu {
+	display: block;
+	width: 100%;
+	height: auto;
+	float: none;
+	clear: both;
+	margin-top: 0px;
+	right: 0px;
+	font-family: caviar_dreamsregular,"Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+.mobile #menu ul {
+	margin: 0px;
+	margin-top: 20px;
+	padding: 0px;
+}
+
+.mobile #menu li {
+	display: block;
+	border-bottom: 1px solid #999;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+body.notHome {
+	background-color: white;
+}
+
+.notHome #content {
+	margin-top: 0px;
+}
+
+#titulo-mobile {
+	color: white;
+	font-size: 1.5em;
+	height: 20px;
+	padding: 15px;
+	background-color: #000000;
+}
+
+#titulo-mobile .titulo {
+	float: left;
+	width: 80%;
+}
+
+#titulo-mobile .close {
+	float: right;
+	width: 19%;
+	text-align: right;
+}
+
+#titulo-mobile .close a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.notHome #contenido img {
+	height: auto;
+
+    overflow: hidden;
+    width: 100%;
+}
+
+.notHome #contenido {
+	overflow: hidden;
+}
+
+#textoInterno {
+	float: none;
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	position: relative;
+	max-height: 170px;
+    overflow: auto;
+}
+
+.textoNosotros {
+	padding: 30px;
+}
+
+.mobile .logos {
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.mobile .logos .logo {
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.mobile .logos .logo:nth-child(even) {
+	text-align: right;
+}
+
+.mobile .logos .logo:last-child {
+	float: none;
+	clear: both;
+}
+
+.notHome #contenido .mobile .logos .logo img {
+	width: 85%;
+	height: auto;
+	margin: 0px;
+}
+
+.notHome #contenido .mobile .logos .logo:first-child img {
+	width: 95%;
+	margin-top: 4px;
+}
+
+.scroll {
+    height: auto;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+}
+
+.galeria {
+	width: 100%;
+}
+
+.notHome #contenido .galeria img {
+	height: auto;
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+    float: none;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.tituloFijo #titulo-mobile {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 30;
+	width: 100%;
+}
+
+.tituloFijo #titulo-mobile .titulo {
+	position: fixed;
+	top: 15px;
+	left: 15px;
+}
+
+.tituloFijo #titulo-mobile .close {
+	position: fixed;
+	right: 15px;
+	top: 15px;
+}
+
+input, textarea {
+	width: 90%;
+}
+
+#submit {
+	width: 20%;
+}
+
+.mobile .links-contacto {
+	width: 50%;
+	float: left;
+	margin-top: 10px;
+}
+
+.notHome #contenido .mobile .links-contacto img {
+	width: 28px;
+	height: 28px;
+	float: left;
+	margin: 0px;
+	margin-right: 2px;
+}

@@ -1,0 +1,375 @@
+/*font especial*/
+@font-face {
+	font-family: 'GothamRnd-Bold'; /*nombre*/
+	src: url('../fonts/GothamRnd-Bold.eot');
+	src: url('../fonts/GothamRnd-Bold.eot?#iefix')
+		format('embedded-opentype'), /*para qeu funcione el ie*/ 
+          url('../fonts/GothamRnd-Bold.woff') format('woff'),
+		url('../fonts/GothamRnd-Bold.ttf') format('truetype'),
+		url('../fonts/GothamRnd-Bold.svg#GothamRnd-Bold') format('svg');
+	src: url('../fonts/GothamRnd-Bold.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothamRnd-Book';
+	src: url('../fonts/GothamRnd-Book.eot');
+	src: url('../fonts/GothamRnd-Book.eot?#iefix')
+		format('embedded-opentype'), url('../fonts/GothamRnd-Book.woff')
+		format('woff'), url('../fonts/GothamRnd-Book.ttf') format('truetype'),
+		url('../fonts/GothamRnd-Book.svg#GothamRnd-Book') format('svg');
+	src: url('../fonts/GothamRnd-Book.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothamRnd-Light';
+	src: url('../fonts/GothamRnd-Light.eot');
+	src: url('../fonts/GothamRnd-Light.eot?#iefix')
+		format('embedded-opentype'), url('../fonts/GothamRnd-Light.woff')
+		format('woff'), url('../fonts/GothamRnd-Light.ttf') format('truetype'),
+		url('../fonts/GothamRnd-Light.svg#GothamRnd-Light') format('svg');
+	src: url('../fonts/GothamRnd-Light.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothamRnd-Medium';
+	src: url('../fonts/GothamRnd-Medium.eot');
+	src: url('../fonts/GothamRnd-Medium.eot?#iefix')
+		format('embedded-opentype'), url('../fonts/GothamRnd-Medium.woff')
+		format('woff'), url('../fonts/GothamRnd-Medium.ttf')
+		format('truetype'),
+		url('../fonts/GothamRnd-Medium.svg#GothamRnd-Medium') format('svg');
+	src: url('../fonts/GothamRnd-Medium.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*--------------------------------------general--------------------------------------*/
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #EFEEE8;
+}
+
+#content {
+	margin: 10% auto auto;
+	text-align: left;
+	width: 500px;
+	font-family: GothamRnd-Light, "Trebuchet MS", Arial, Helvetica,
+		sans-serif;
+	font-size: 14px;
+}
+
+#contentInt {
+    background-color: white;
+    font-family: GothamRnd-Light,"Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    margin: 13% auto auto;
+    text-align: left;
+    width: 100%;
+}
+
+#contentIndex {
+	background-color: #F9F9F9;
+	margin: 25% auto auto;
+	text-align: center;
+	width: 1025px;
+	font-family: GothamRnd-Light, "Trebuchet MS", Arial, Helvetica,
+		sans-serif;
+}
+
+#index {
+	text-align: center;
+	height: 400px;
+}
+
+#cabecera {
+	background-color: #F9F9F9;
+	float: left;
+	height: 40px;
+	width: 500px;
+}
+
+#logoInterno{
+    float: left;
+    margin-left: 25%;
+    margin-top: -8.1%;
+    position: relative;
+}
+
+
+#menu {
+    background-image: url("../image/fondo.jpg");
+    color: #999999;
+    float: left;
+    font-size: 1.2em;
+    height: 406px;
+    position: relative;
+    width: 450px;
+}
+
+#menu ul {
+    float: right;
+	width:50px;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #999999;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+#menuInt {
+    float: left;
+    height: 560px;
+    margin-left: 7%;
+    margin-top: -70px;
+    position: relative;
+    z-index: 30;
+}
+
+#menuInt ul {
+    float: right;
+}
+
+#menuInt li {
+	display: inline;
+}
+
+#menuInt a {
+	text-decoration: none;
+	color: #999999;
+}
+
+#menuInt a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.01 {
+    float: right;
+	width:50px;
+}
+
+#contenido {
+	width: 1025px;
+	height: 360px;
+	padding-top: 40px;
+}
+
+#textoInterno {
+	/*background-color: #FFFFFF;
+	float: right;
+	height: 354px;
+	margin-top: -357px;
+	position: absolute;
+	width: 600px;
+	margin-left: 425px;
+	*/
+	margin-left: 10px;
+    margin-top: 40px;
+    position: absolute;
+    width: 350px;
+    z-index: 10;
+}
+
+#textoInterno2 {
+	/*background-color: #FFFFFF;
+	float: right;
+	height: 354px;
+	margin-top: -357px;
+	position: absolute;
+	width: 600px;
+	margin-left: 425px;
+	*/
+    margin-left: 29%;
+    margin-top: 40px;
+    position: absolute;
+    z-index: 80;
+}
+
+#textoInterno1 {
+	background-color: #FFFFFF;
+	float: right;
+	height: 80px;
+	margin-top: -110px;
+	position: absolute;
+	width: 1025px;
+	text-align: center;
+	z-index: 999;
+}
+
+#textoInterno1 img {
+	padding-right: 13px;
+	padding-top: 15px;
+}
+
+.textoNosotros {
+    background-color: white;
+    height: 200px;
+    margin-left: 41%;
+    margin-top: 70px;
+    width: 300px;
+}
+
+.textoNosotros img{
+    margin-left: -30%;
+}
+
+
+#pie {
+	background-color: #000000;
+	bottom: 0;
+	clear: both;
+	color: #999999;
+	height: 50px;
+	position: fixed;
+	text-align: center;
+	width: 1025px;
+}
+
+#pie a {
+	text-decoration: none;
+	color: #999999;
+}
+
+#pie a:hover {
+	text-decoration: none;
+	color: #d3b85f;
+}
+
+#pieInterna {
+    clear: both;
+    color: #999999;
+padding-top: 25%;
+    text-align: center;
+}
+
+#pieInterna a {
+	text-decoration: none;
+	color: #999999;
+}
+
+#pieInterna a:hover {
+	text-decoration: none;
+	color: #d3b85f;
+}
+
+#pieInterna2 {
+    clear: both;
+    color: #999999;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+
+}
+
+
+
+/*--------------------------------------galeria--------------------------------------*/
+.scroll {
+	height: 354px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	position: relative;
+	width: 1025px;
+}
+
+.galeria {
+	width: 6202px;
+}
+
+.galeria img {
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 5px;
+}
+
+@-moz-document url-prefix () { 
+	.scroll { height:354px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		position: relative;
+		width: 1025px;
+	}
+}
+
+#slideShowImages { /* The following CSS rules are optional. */
+	
+}
+
+#slideShowImages img { /* The following CSS rules are optional. */
+	
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+.formulario {
+	display: block;
+	margin: 0 auto;
+	width: 510px;
+	color: #666666;
+	font-family: Arial;
+}
+
+form {
+	margin: 0 auto;
+}
+
+input,textarea {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: thin solid #D8D7D7;
+	color: #666666;
+	font-size: 11px;
+	margin-top: 5px;
+	padding: 5px;
+	width: 280px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+	height: 50px;
+}
+
+#submit {
+    background-color: transparent;
+    border: 0 none;
+    color: #666666;
+    cursor: pointer;
+    float: right;
+    font-size: 30px;
+    margin-top: -10px;
+    text-align: right;
+    width: 100px;
+}
+
+h1 {
+	width: 70%;
+	height: 100px;
+	float: center;
+	background-color: #90EE90;
+	border: 1px solid #063;
+}
+
+.mobile {
+	display: none;
+}
