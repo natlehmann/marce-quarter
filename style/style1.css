@@ -70,9 +70,10 @@ body {
     background-color: white;
     font-family: GothamRnd-Light,"Trebuchet MS",Arial,Helvetica,sans-serif;
     font-size: 14px;
-    margin: 13% auto auto;
+    margin: 0 auto;
     text-align: left;
     width: 100%;
+    min-height: 650px;
 }
 
 #contentIndex {
@@ -100,7 +101,6 @@ body {
     float: left;
     margin-left: 25%;
     margin-top: -8.1%;
-    position: relative;
 }
 
 
@@ -110,7 +110,6 @@ body {
     float: left;
     font-size: 1.2em;
     height: 406px;
-    position: relative;
     width: 450px;
 }
 
@@ -136,10 +135,9 @@ body {
 
 #menuInt {
     float: left;
-    height: 560px;
+    height: auto;
     margin-left: 7%;
     margin-top: -70px;
-    position: relative;
     z-index: 30;
 }
 
@@ -175,7 +173,6 @@ body {
 #textoInterno {
 	margin-left: 10px;
     margin-top: 40px;
-    position: absolute;
     width: 350px;
     z-index: 10;
 }
@@ -183,8 +180,9 @@ body {
 #textoInterno2 {
     margin-left: 29%;
     margin-top: 40px;
-    position: absolute;
     z-index: 80;
+    clear: both;
+    float: none;
 }
 
 #textoInterno1 {
@@ -204,15 +202,12 @@ body {
 }
 
 .textoNosotros {
-    background-color: white;
-    height: 200px;
-    margin-left: 41%;
-    margin-top: 70px;
-    width: 300px;
-}
-
-.textoNosotros img{
-    margin-left: -30%;
+    background: none;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 20%;
+    text-align: left;
+    width: 70%;
 }
 
 
@@ -267,7 +262,6 @@ padding-top: 25%;
 	.scroll { height:354px;
 		overflow-x: scroll;
 		overflow-y: hidden;
-		position: relative;
 		width: 1025px;
 	}
 }
@@ -325,6 +319,41 @@ h1 {
 	border: 1px solid #063;
 }
 
-#menu-mobile {
+#menu-mobile,
+.logo-mobile,
+.close-mobile {
 	display: none;
+}
+
+img.cliente {
+	float: left;
+	margin-left: 60px;
+}
+
+.cliente:first-child {
+	margin-left: 0px;
+}
+
+.separador {
+	width: 100%;
+	height: 2px;
+	line-height: 2px;
+	float: none;
+	clear: both;
+}
+
+body.pagina-interna {
+	background-color: white;
+}
+
+.header {
+	background-color: #efeee8;
+	width: 100%;
+	height: 190px;
+}
+
+.footer {
+	background-color: #efeee8;
+	font-family: GothamRnd-Light,"Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 14px;
 }

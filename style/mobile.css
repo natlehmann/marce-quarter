@@ -29,3 +29,64 @@
     padding-top: 7%;
     width: 90%;
 }
+
+.logo-mobile {
+	display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 50%;
+}
+
+#logoInterno,
+#menuInt {
+	display: none;
+}
+
+#textoInterno2 {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+.textoNosotros {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+img.cliente {
+	margin-left: 0px;
+	float: none;
+	width: 100%;
+}
+
+#contentInt {
+	min-height: 600px;
+	padding-bottom: 10px;
+	height: auto;
+}
+
+.close-mobile {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	text-align: right;
+	color: black;
+	display: block;
+}
+
+.header {
+	position: relative;
+}
+
+.close-mobile a,
+.close-mobile a:link,
+.close-mobile a:active,
+.close-mobile a:visited,
+.close-mobile a:HOVER {
+	text-decoration: none;
+	color: black;
+	font-style: bold;
+	font-size: 20px;
+}
